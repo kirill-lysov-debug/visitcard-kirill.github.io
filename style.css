@@ -330,6 +330,37 @@ footer {
         padding: 2rem 1rem;
     }
 }
+/* Стили для кнопки Contact with me */
+.cta-button {
+    display: inline-block;
+    background: linear-gradient(45deg, #0088cc, #00a2ff);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 136, 204, 0.3);
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 136, 204, 0.5);
+    background: linear-gradient(45deg, #0077b3, #0099ff);
+}
+
+.cta-button:active {
+    transform: translateY(-1px);
+}
+
+.cta-button i {
+    margin-right: 10px;
+    font-size: 1.3rem;
+}
 
 
 
